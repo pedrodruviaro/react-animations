@@ -7,10 +7,10 @@ export const Container = styled.button`
 
     border-radius: 0.35rem;
 
-    transition: filter 250ms ease-in-out;
+    transition: transform 200ms ease-in-out;
 
     &:hover,
     &:focus-within {
-        filter: brightness(1.1);
+        transform: scale(1.1);
     }
 `;
