@@ -13,7 +13,7 @@
 
 ---
 
-## Snippet off the animations, if you only want to see this, hehe
+## Snippet off the animations, if you only want to see this, hehe 😉
 
 ![Animations CSS](https://i.imgur.com/mAz9TWs.png)
 
