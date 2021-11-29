@@ -1,12 +1,14 @@
 import { Button } from "../Button";
 import { Form } from "../Form";
+import { CustomTitle } from "../CustomTitle";
+import { Wrapper } from "../Wrapper";
 
 import { Link } from "react-router-dom";
 
 export const Login = () => {
     return (
-        <div>
-            <h1>Login</h1>
+        <Wrapper>
+            <CustomTitle>Login</CustomTitle>
             <Form>
                 <label>
                     Email
@@ -24,6 +26,6 @@ export const Login = () => {
 
                 <Button type="submit">Enter</Button>
             </Form>
-        </div>
+        </Wrapper>
     );
 };

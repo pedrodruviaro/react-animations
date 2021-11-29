@@ -5,10 +5,8 @@ export const Form = styled.form`
     gap: 1.5rem;
 
     width: 100%;
-    max-width: 30rem;
 
     margin-inline: auto;
-    padding: 2rem;
 
     label {
         font-weight: 400;
