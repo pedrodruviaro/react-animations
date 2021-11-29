@@ -3,10 +3,13 @@ import styled from "styled-components";
 export const CustomText = styled.p`
     font-weight: 500;
 
+    margin-top: 1rem;
+
     a {
         text-decoration: none;
         color: #d9304f;
         position: relative;
+        font-weight: 600;
 
         &::after {
             content: "";

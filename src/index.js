@@ -5,6 +5,8 @@ import { App } from "./App";
 import { ResetStyles } from "./styles/ResetStyles";
 import { GlobalStyles } from "./styles/GlobalStyles";
 
+import "./styles/animations.css";
+
 ReactDOM.render(
     <React.StrictMode>
         <ResetStyles />

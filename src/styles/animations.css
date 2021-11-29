@@ -1,0 +1,46 @@
+/* ---- FADE IN ---- */
+.fade-in {
+    animation: fade-in 500ms forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateX(-2rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+/* ---- POP UP ---- */
+.pop-up {
+    animation: pop-up 1000ms forwards;
+}
+
+@keyframes pop-up {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* ---- SCALE DOWN ---- */
+.scale-down {
+    animation: scale-down 500ms forwards;
+}
+
+@keyframes scale-down {
+    from {
+        transform: scale(1.2) translateY(-20px);
+    }
+
+    to {
+        transform: scale(1) translateY(0);
+    }
+}

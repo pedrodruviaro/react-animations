@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.h1`
     font-size: clamp(2rem, 1rem + 5vw, 3rem);
     text-align: left;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
     position: relative;
 
     &::before {

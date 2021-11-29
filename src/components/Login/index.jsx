@@ -8,16 +8,20 @@ import { CustomText } from "../CustomText";
 
 export const Login = () => {
     return (
-        <Wrapper>
+        <Wrapper className="fade-in">
             <CustomTitle>Login</CustomTitle>
             <Form>
                 <label>
                     Email
-                    <input type="text" placeholder="youremail@domain.com" />
+                    <input
+                        type="text"
+                        placeholder="youremail@domain.com"
+                        autoFocus
+                    />
                 </label>
                 <label>
                     Password
-                    <input type="text" placeholder="******" />
+                    <input type="password" placeholder="******" />
                 </label>
 
                 <CustomText>

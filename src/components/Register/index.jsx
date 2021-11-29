@@ -7,20 +7,24 @@ import { Wrapper } from "../Wrapper";
 
 export const Register = () => {
     return (
-        <Wrapper>
+        <Wrapper className="fade-in">
             <CustomTitle>Register</CustomTitle>
             <Form>
                 <label>
                     Email
-                    <input type="text" placeholder="youremail@domail.com" />
+                    <input
+                        type="text"
+                        placeholder="youremail@domail.com"
+                        autoFocus
+                    />
                 </label>
                 <label>
                     Password
-                    <input type="text" placeholder="youremail@domail.com" />
+                    <input type="password" placeholder="youremail@domail.com" />
                 </label>
                 <label>
                     Confirm Password
-                    <input type="text" placeholder="******" />
+                    <input type="password" placeholder="******" />
                 </label>
 
                 <CustomText>
