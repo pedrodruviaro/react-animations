@@ -1,4 +1,4 @@
-/* ---- FADE IN ---- */
+/* -------- FADE IN -------- */
 .fade-in {
     animation: fade-in 500ms forwards;
 }
@@ -15,7 +15,7 @@
     }
 }
 
-/* ---- POP UP ---- */
+/* -------- POP UP -------- */
 .pop-up {
     animation: pop-up 1000ms forwards;
 }
@@ -30,7 +30,7 @@
     }
 }
 
-/* ---- SCALE DOWN ---- */
+/* -------- SCALE DOWN -------- */
 .scale-down {
     animation: scale-down 500ms forwards;
 }
