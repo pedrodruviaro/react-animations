@@ -10,8 +10,8 @@ export const Container = styled.h1`
         content: "";
         display: block;
         background: #d9304f;
-        width: 1.5rem;
-        height: 0.5rem;
+        width: 0.75em;
+        height: 0.15em;
         aspect-ratio: 1;
 
         position: absolute;

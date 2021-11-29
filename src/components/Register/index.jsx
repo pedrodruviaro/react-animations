@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import { Button } from "../Button";
+import { CustomText } from "../CustomText";
+import { CustomTitle } from "../CustomTitle";
 import { Form } from "../Form";
 import { Wrapper } from "../Wrapper";
 
 export const Register = () => {
     return (
         <Wrapper>
-            <h1>Register</h1>
+            <CustomTitle>Register</CustomTitle>
             <Form>
                 <label>
                     Email
@@ -21,9 +23,9 @@ export const Register = () => {
                     <input type="text" placeholder="******" />
                 </label>
 
-                <p>
+                <CustomText>
                     Already have an account? <Link to="/">Log in.</Link>
-                </p>
+                </CustomText>
 
                 <Button type="submit">Create</Button>
             </Form>

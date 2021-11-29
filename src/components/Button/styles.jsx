@@ -7,10 +7,13 @@ export const Container = styled.button`
 
     border-radius: 0.35rem;
 
-    transition: transform 200ms ease-in-out;
+    font-size: 1.125rem;
+
+    transition: transform 200ms ease-in-out, box-shadow 300ms ease;
 
     &:hover,
     &:focus-within {
-        transform: scale(1.1);
+        transform: scale(1.05);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     }
 `;

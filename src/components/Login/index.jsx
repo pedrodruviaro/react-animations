@@ -4,6 +4,7 @@ import { CustomTitle } from "../CustomTitle";
 import { Wrapper } from "../Wrapper";
 
 import { Link } from "react-router-dom";
+import { CustomText } from "../CustomText";
 
 export const Login = () => {
     return (
@@ -19,10 +20,10 @@ export const Login = () => {
                     <input type="text" placeholder="******" />
                 </label>
 
-                <p>
+                <CustomText>
                     Don't have an account?{" "}
                     <Link to="/register">Create one!</Link>
-                </p>
+                </CustomText>
 
                 <Button type="submit">Enter</Button>
             </Form>

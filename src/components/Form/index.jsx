@@ -18,12 +18,13 @@ export const Form = styled.form`
         width: 100%;
 
         font-size: 1.125rem;
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
         margin-top: 0.15rem;
 
         outline: none;
 
         border: none;
+        border-radius: 0.25rem;
 
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
