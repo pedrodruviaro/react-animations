@@ -9,7 +9,7 @@
 
 -   The animations are made with CSS classes, placed directly on the components where we want to apply
 
--   The components are made with styled-components. Feel free to change and test new things!
+-   The components are made with styled-components 💅. Feel free to change and test new things!
 
 ---
 
