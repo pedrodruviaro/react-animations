@@ -5,11 +5,11 @@
 
 ---
 
--   The see only the animation CSS go to **src/styles/animations.css**
+-   To see only the animation code CSS go to **src/styles/animations.css** or just scroll down this page.
 
--   The animations are made with CSS classes, placed directly on the components where we want to apply
+-   The animations are made with CSS classes, placed directly on the components where we want to apply.
 
--   The components are made with styled-components 💅. Feel free to change and test new things!
+-   Components are made with styled-components 💅. Feel free to change and test new things!
 
 ---
 
